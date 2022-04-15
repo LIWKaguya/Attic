@@ -14,7 +14,7 @@ const App = () => {
         <Container maxwidth='lg'>
             <AppBar className={classes.appBar} position='static' color='inherit'>
                 <Typography className={classes.heading} variant='h2' align='center'>Landscape</Typography>
-                <img src={landscape} alt='landscape' height='500' />     
+                <img src={landscape} alt='landscape' height='100'  width='200'/>     
             </AppBar>
             <Grow in>
                 <Container>
